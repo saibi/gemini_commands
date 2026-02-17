@@ -1,0 +1,17 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    },
+    "enablePermanentToolApproval": true
+  },
+  "general": {
+    "vimMode": false,
+    "previewFeatures": true
+  },
+  "ui": {
+    "showStatusInTitle": true,
+    "showMemoryUsage": true,
+    "showModelInfoInChat": true
+  }
+}
