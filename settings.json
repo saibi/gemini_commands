@@ -1,17 +1,26 @@
 {
+  "theme": "Default",
+  "selectedAuthType": "oauth-personal",
+  "preferredEditor": "vim",
   "security": {
     "auth": {
       "selectedType": "oauth-personal"
-    },
-    "enablePermanentToolApproval": true
+    }
   },
   "general": {
-    "vimMode": false,
-    "previewFeatures": true
+    "previewFeatures": true,
+    "checkpointing": {
+      "enabled": true
+    }
   },
   "ui": {
-    "showStatusInTitle": true,
     "showMemoryUsage": true,
-    "showModelInfoInChat": true
+    "showModelInfoInChat": true,
+    "showStatusInTitle": true,
+    "theme": "Default Light"
+  },
+  "hasSeenIdeIntegrationNudge": true,
+  "ide": {
+    "enabled": true
   }
 }
